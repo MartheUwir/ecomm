@@ -1,0 +1,28 @@
+{
+  "name": "ecomm",
+  "version": "1.0.0",
+  "description": "ecomerce rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartheUwir/ecomm.git"
+  },
+  "keywords": [],
+  "author": "Marthe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartheUwir/ecomm/issues"
+  },
+  "homepage": "https://github.com/MartheUwir/ecomm#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
